@@ -5,9 +5,13 @@
 
 class Person {
     constructor(private firstName: string, private lastName: string) {
+
+        //assignments of constructor parameters to class properties
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    //methods 
     getFullName(): string {
         return `${this.firstName} ${this.lastName}`;
     }
@@ -37,7 +41,7 @@ class Employee extends Person {
 
 
 //creating an instance of the employee class
-let employee = new Employee('John', 'Doe', 'Web Developer');
+let employee = new Employee('John', 'Doe',' job');
 
 // Because the Employee class inherits properties and methods of the Person class
 // you can call the getFullName() and describe() methods on the employee object as follows

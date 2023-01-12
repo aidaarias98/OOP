@@ -41,8 +41,6 @@ const myCat = new Cat("kitty");
 console.log(myCat.getName() + " says: " + myCat.makeSound());
 // Output: "kitty says: Meow"
 
-
-
 // This example demonstrates how abstraction allows you to define a common interface
 // for different types of animals, and also how you can use inheritance to create classes
 // that are based on that interface, while implementing their specific behavior and also 
